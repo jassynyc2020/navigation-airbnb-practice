@@ -7,18 +7,16 @@
   padding: 0;
 }
 
-@media (max-width: 545px min-width:320px)
-
 /* layout */
 header {
   font-family: Arial, Helvetica, sans-serif;
-
 }
- nav {
-     display: flex;
-     flex-direction: row;
-     width: 100%;    
- }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
 
 /* blocks */
 
@@ -27,11 +25,8 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   padding: 0px;
-
   width: 100%;
   background-color: crimson;
-  ;
- 
 }
 
 .brand-title {
@@ -69,20 +64,15 @@ img {
   list-style: none;
   width: 100%;
   padding: 10px;
-
 }
 
 .navbar-links a {
   width: 100%;
   text-decoration: none;
-  display: ;
   font-size: 1rem;
   display: flex;
   flex-direction: column;
   color: white;
-  border: 1em solid;
-  border-radius: 20px;
-  
 }
 
 .navbar-links li:hover {
@@ -96,7 +86,7 @@ img {
 }
 
 .navbar-links.active {
-    display: flex;
+  display: flex;
 }
 
 /* Desktop styles */
@@ -116,13 +106,13 @@ img {
   }
 
   .navbar {
-      flex-direction: row;
-      justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .navbar-links {
     display: flex;
-justify-self: center;
+    justify-self: center;
     width: 100%;
     padding: 1em;
   }
